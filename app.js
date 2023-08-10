@@ -27,7 +27,7 @@ process.exit();
 app.get("/",(req,res)=>{
 res.send("bonjour");
 });
-app.use("/api/user",userRouter)
+app.use("/api/users",userRouter)
 app.use("/api/categories",categorieRouter)
 app.use("/api/scategories",scategorieRouter)
 app.use("/api/articles",articleRouter)

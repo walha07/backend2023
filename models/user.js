@@ -23,6 +23,12 @@ type: String,
 enum: ["user", "admin"],
 default: "user"
 },
+isActive: {
+
+    type: Boolean,
+    default: true,
+    required: false
+    },
 
 },
 {
